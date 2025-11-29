@@ -35,6 +35,7 @@ const WindowWrapper = (Component, windowKey) => {
 			if (!el) return;
 
 			const [instance] = Draggable.create(el, {
+				bounds: "body",
 				onPress() {
 					focusWindow(windowKey);
 				},
