@@ -180,6 +180,9 @@ body {
         @apply py-5 my-5 border-y border-dashed space-y-1;
 
         li {
+
+          list-style: none;
+
           .check {
             @apply text-[#00A154] w-5;
           }
